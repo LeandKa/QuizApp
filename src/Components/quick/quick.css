@@ -1,0 +1,42 @@
+.main{
+    margin-top: 150px;
+}
+
+.main h1{
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.select{
+    width: 200px;
+    height: 40px;
+}
+.select:hover{
+    border-color: royalblue;
+}
+
+.main form button{
+    margin-top: 20px;
+    border-color: wheat;
+    box-shadow: violet;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    height: 40px;
+    background-color: cornflowerblue;
+}
+
+.main form button:hover{
+    background-color: #a8d6ee;
+    cursor: pointer;
+}
+
+.main form button:focus{
+    outline: none;
+}

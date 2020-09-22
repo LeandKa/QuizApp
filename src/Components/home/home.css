@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+
+.title{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.form-game h1{
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.form-options{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-options a{
+    border: 3px solid black;
+    border-radius: 10px 10px 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.form-options a:hover{
+    background-color: #a8d6ee;
+}
+
+
+
+
